@@ -1,0 +1,51 @@
+[[ascUrunList]]
+<div class="usrPrdList">
+<div class="usrPrdListHeader">
+  <div class="PrdListSort">{{Siralama*}}</div>
+  {{PagingUst*}}
+  <div class="prdListCount">{{KayitSayisi*}}</div>
+  <hr class="fixer" />
+</div>
+<div class="usrPrdListBody">
+  <ul>
+    {{Urun}}
+    [[ascUrun]]
+    {li class="box prdBox {{Urun_ozelUrunClass*}}"}
+    <div class="prdBoxInner">
+      <div class="prdBoxImg">{{Urun_urunResim*}}</div>
+      <div class="prdBoxQuickLook">{{Urun_hizliIncele*}}</div>
+      <div class="prdBoxName">{{Urun_urunAdi*}}</div>
+      <div class="prdBoxPrice">
+        {{Urun_normalFiyat*}}
+        {{Urun_satisFiyat*}}
+        <hr class="fixer" />
+      </div>
+      <div class="prdBoxIcons">
+        {{Urun_indirimUyari*}}
+        {{Urun_yeniUrunBilgi*}}
+        {{Urun_stokUyari*}}
+      </div>
+      <div class="prdBoxColor">
+        <div class="iscroll-wrapper">
+          <div class="scroller">
+            {{Urun_urunGrupKisa*}}
+            <hr class="fixer" />
+          </div>
+        </div>
+      </div>
+      
+      <div class="prdBoxSize">{{Urun_urunSecenek*}}</div>
+      <div class="prdBoxAddToCart">{{Urun_btnSepeteAt*}}</div>
+      <hr class="fixer" />
+    </div>
+    {/li}
+    [[*ascUrun]]
+    [[*emos]]
+  </ul>
+</div>
+<div class="usrPrdListFooter">
+  {{PagingAlt*}}
+  <hr class="fixer" />
+</div>
+</div>
+[[*ascUrunList]]
